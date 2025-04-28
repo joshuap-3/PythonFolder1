@@ -4,12 +4,12 @@
 # This code is a simple data analysis and visualization script that reads a CSV file containing video game sales data,
 # processes the data to remove entries after 2015, and then creates a bar graph to visualize the count of video games by genre.
 
-# This is my test code!
-print("Hello ICS Class!")
-
 # Importing Libraries
 import matplotlib.pyplot as plt
 import pandas as pd
+
+# This is my test code!
+print("Hello ICS Class!")
 
 # Reading the data and printing the first 5 rows
 data = pd.read_csv('vgsales.csv')
